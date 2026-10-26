@@ -43,7 +43,7 @@ for i, doc in enumerate(compressed_docs, 1):
 """
 Removes Irrelevant Information: Filters out information that is not relevant to the user's query.
 Reduces Context Size: Passes only useful content to the LLM, reducing unnecessary tokens.
-Improves Answer Quality: Helps the LLM focus on the most relevant information.
+Improves Answer Quality: Helps the LLM focus on the most relevant information within a document.
 
 1. User's Query
        ↓
